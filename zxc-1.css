@@ -15,8 +15,6 @@ body::before {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 1500px;
-	height: 1500px;
 	z-index: -1;
 	background-image: url("341726994_598543898889471_4533116577120466954_n.jpg");
 	background-size: 100%;
