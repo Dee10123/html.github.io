@@ -1,11 +1,12 @@
 
+
 body {
 	font-family: Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	background-image: url("341726994_598543898889471_4533116577120466954_n.jpg");
 	background-size: 100%;
 	background-attachment: fixed;
 	position: relative;
-	background-size: cover;
+ 	background-size: cover;
   	background-position: center center;
 	
 }
@@ -19,16 +20,9 @@ body::before {
 	background-image: url("341726994_598543898889471_4533116577120466954_n.jpg");
 	background-size: 100%;
 	background-attachment: fixed;
+	filter: blur(0px);
 	background-size: cover;
   	background-position: center center;
-	filter: blur(0px);
-}
-
-@media (max-width: 768px) {
-  body {
-    background-image: url("341726994_598543898889471_4533116577120466954_n.jpg");
-    background-size: cover;
-  }
 }
 
 .logo img {
@@ -95,6 +89,7 @@ h3 {
 	padding-left: 60px;
 	padding-top: 30px;
 	padding-bottom: 50px;
+	text-align: center;
 }
 
 h5 {
