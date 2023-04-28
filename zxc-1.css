@@ -22,6 +22,13 @@ body::before {
 	filter: blur(0px);
 }
 
+@media (max-width: 768px) {
+  body {
+    background-image: url("341726994_598543898889471_4533116577120466954_n.jpg");
+    background-size: cover;
+  }
+}
+
 .logo img {
 	float: left;
 	height: 80px;
